@@ -24,7 +24,10 @@ alias klo='kubectl logs -f'
 alias ksyslo='kubectl --namespace=kube-system logs -f'
 alias klop='kubectl logs -f -p'
 alias ksyslop='kubectl --namespace=kube-system logs -f -p'
-alias kp='kubectl proxy'
+
+# Disabled by mem 28-Jul-2021
+# alias kp='kubectl proxy'
+
 alias kg='kubectl get'
 alias kga='kubectl get all'
 alias kggctx='kubectl config get-contexts'
